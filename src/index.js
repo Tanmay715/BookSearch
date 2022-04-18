@@ -15,7 +15,7 @@ function App() {
     setBook(book);
   }
 
-  
+
   function handleSubmit(event){
     event.preventDefault();
     console.log(book);
@@ -36,11 +36,9 @@ function App() {
            </form>
 
            {result.map(book=>(     
-             <div className="bookContainer">
                <a href={book.volumeInfo.previewLink} target="_blank">
-               <img src={book.volumeInfo.imageLinks.thumbnail} alt={book.title} width="200px" height="200px" className="imagecss"/>
+               <img src={book.volumeInfo.imageLinks.thumbnail} alt={book.title} className="imagecss"/>
               </a>
-             </div> 
             ))}
        </div>
   );
