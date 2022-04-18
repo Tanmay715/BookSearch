@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bodyClass {
+  background-image: url(https://www.krausanderson.com/wp-content/uploads/2020/10/WashCntyLWldWd_StPaul_0023_ADJ-1920x1080.jpg);
+  width: auto;
+  height: auto;
+}
+
+.imagecss {
+  margin-right: 30px;
+  margin-top: 10px;
+  border: 10px solid yellow;
+  border-radius: 4px;
+  background-color: pink;
+}
+
+.btn:hover {
+  background-color: red;
+}
